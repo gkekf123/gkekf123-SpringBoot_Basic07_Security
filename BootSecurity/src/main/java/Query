@@ -1,0 +1,7 @@
+CREATE TABLE users(
+	username VARCHAR(50) PRIMARY KEY, #ID
+    password VARCHAR(50), #PW
+    role VARCHAR(50) #권한
+);
+
+SELECT * FROM users;

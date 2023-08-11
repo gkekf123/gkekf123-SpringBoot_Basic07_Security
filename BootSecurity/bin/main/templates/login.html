@@ -8,11 +8,14 @@
 	<h1>login 페이지</h1>
 	<h1>비밀번호를 공개하지 않을거다</h1>
 	
-	<form>
+	<form action="loginForm" method="post">
 		<input type="text" name="username">
-		<input type="password" name="password">
-		<input type="submit" value="로그인 시도">
+		<input type="password" name="password"><br>
+		<input type="checkbox" name="remember-me">기억하기
+		<input type="submit" value="로그인">
 	</form>
+	
+	[[${msg}]]
 	
 </body>
 </html>

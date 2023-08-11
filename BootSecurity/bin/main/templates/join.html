@@ -5,6 +5,23 @@
 <title>Insert title here</title>
 </head>
 <body>
+	
 	<h1>join 페이지</h1>
+	
+	<form action="joinForm" method="post">
+		<input type="text" name="username">
+		<input type="password" name="password">
+		<select name="role">
+			<option value="ROLE_USER">유저 권한</option>
+			<option value="ROLE_ADMIN">관리자 권한</option>
+			<option value="ROLE_TASTER">테스터 권한</option>
+		</select>
+		
+		<input type="submit" value="회원가입">
+		
+	</form>
+	
+	
+	
 </body>
 </html>
